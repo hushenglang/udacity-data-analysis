@@ -79,7 +79,7 @@ print len(paid_submissions)
 
 ###########################################################
 def within_one_week(join_date, engagement_date):
-    time_delta = engagement_date - join_date
+    time_delta = en gagement_date - join_date
     return time_delta.days < 7
 
 paid_engagement_in_first_week = []
